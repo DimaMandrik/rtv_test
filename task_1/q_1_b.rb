@@ -8,7 +8,7 @@
 # # 2) If it does not work with objects, what would be required to make it work for generic objects?
 # #
 class Obj123
-  @@no_of_customers = 0
+  @@par = 0
 end
 
 ob = Obj123.new
