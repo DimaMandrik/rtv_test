@@ -15,7 +15,7 @@ ob = Obj123.new
 ob1 = Obj123.new
 
 arr = [1, 2, '3', '3', 3, 4.0, 4, 10, 13, 15, 15, 17, ob, ob1, ob1, ob]
-def remove_duplicates(arr)
+def mov_uniq_to_new_array(arr)
   arr1 = []
   arr.each {|el| arr1 << el if el != _next(arr, el)}
   arr1
@@ -29,4 +29,4 @@ def has_next?(arr, el)
   arr.include?(arr.index(el) + 1)
 end
 
-print remove_duplicates(arr)
+print mov_uniq_to_new_array(arr)
