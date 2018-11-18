@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'chunky_png'
+gem 'cucumber', '3.0.1'
+gem 'page-object'
+gem 'rake'
+gem 'rspec-expectations'
+gem 'syntax'
+gem 'rautomation'
+gem 'watir'
+gem 'gherkin'
+gem 'ci_reporter'
+gem 'selenium-webdriver'
+gem 'activesupport'
+

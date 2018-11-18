@@ -4,6 +4,7 @@
 # over the world. We would like to see an example of code refactoring.
 
 # probably it is not <Registration> feature
+# We strictly shouldn't use any text as Locators of elements because of different markets all over the world.
 feature 'Registrations', js: true do
   context 'with a logged user' do
 

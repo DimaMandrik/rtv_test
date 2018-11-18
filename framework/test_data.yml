@@ -1,0 +1,10 @@
+:user1:
+  :email: user_1@wuaki.tv
+  :password: QATests!1
+:valid_password: QATests!1
+:mc1:
+  :number: 5100290029002909
+  :holder: Test Customer
+  :exp_month: 10
+  :exp_year: 2020
+  :cvv: 737
