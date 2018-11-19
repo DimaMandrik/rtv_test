@@ -3,7 +3,7 @@ class LoginPage
 
   text_field(:email_address, xpath: "//input[@name='email']")
   text_field(:password, xpath: "//input[@name='password']")
-  button(:login, css: 'div.form__submit')
+  div(:login, css: 'div.form__submit')
 
   def sign_in(account)
     creds = get_account_data(account)
@@ -13,6 +13,6 @@ class LoginPage
   end
 
   def click_login
-    self.login
+    self.login_element.click
   end
 end

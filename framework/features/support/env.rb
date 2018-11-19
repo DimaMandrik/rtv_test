@@ -2,19 +2,9 @@
 require 'bundler/setup'
 require 'page-object'
 require 'page-object/page_factory'
-require 'yaml'
-require 'logger'
-require 'open-uri'
-require 'net/http'
-require 'net/https'
-require 'uri'
-require 'mechanize'
 require 'date'
-require 'securerandom'
-require_relative 'scenario_data_holder'
 require 'active_support/time'
 require 'active_support'
-require 'active_support/core_ext/string/inflections'
 
 PageObject.default_element_wait = (15)
 

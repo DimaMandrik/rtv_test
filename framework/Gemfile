@@ -9,7 +9,6 @@ gem 'syntax'
 gem 'rautomation'
 gem 'watir'
 gem 'gherkin'
-gem 'ci_reporter'
 gem 'selenium-webdriver'
 gem 'activesupport'
 

@@ -1,7 +1,7 @@
 :user1:
   :email: user_1@wuaki.tv
-  :password: QATests!1
-:valid_password: QATests!1
+  :password: QATests1
+:valid_password: QATests1
 :mc1:
   :number: 5100290029002909
   :holder: Test Customer
