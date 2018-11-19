@@ -6,7 +6,7 @@ Feature: Rent/Buy content
     Given I am on login page
     And I login with correct credentials
 
-  @smoke @login
+  @smoke @content
   Scenario Outline: Buy content
     When I click on the movie
     And I click watch now button
